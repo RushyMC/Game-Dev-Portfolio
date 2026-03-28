@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Ninja in the Jungle",
+    "description": "Far away from home in a mystical land. You must defeat the evil samurais and find your destiny!",
+    "video": "videos/Ninja in the Jungle.mp4",
+    "tags": "Tools Used: Godot, GDScript"
+  },
+  {
+    "title": "Dodge Game",
+    "description": "Control Carl the Controller and dodge the falling spikes!",
+    "video": "videos/Dodge Game.mp4",
+    "tags": "Tools Used: Godot, GDScript"
+  },
+  {
+    "title": "Robot Space Shooter",
+    "description": "Stranded in an unknown land... you must destroy the AI robots out for your blood!",
+    "video": "videos/Robot Space Shooter.mp4",
+    "tags": "Tools Used: Godot, GDScript"
+  }
+]

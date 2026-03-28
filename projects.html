@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Project Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">RushyMC</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="projects.html">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container projects-page">
+    <section class="projects-intro">
+      <p class="eyebrow">Projects</p>
+      <h1>Game Portfolio</h1>
+    </section>
+
+    <p>Here are some of my games.</p>
+    <section id="projects-grid" class="projects-grid" aria-live="polite"></section>
+  </main>
+  <template id="project-card-template">
+    <article class="project-card">
+      <div class="project-content">
+        <h2 class="project-title"></h2>
+        <p class="project-description"></p>
+        <div class="project-video"></div>
+        <p class="project-tags"></p>
+        <p class="project-notes"></p>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
